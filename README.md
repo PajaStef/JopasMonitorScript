@@ -11,4 +11,4 @@ INSTALATION:
 
 USAGE:
 
-1. add the script into crontab (you can test the script if you want)
+1. add the script into crontab (you can use crontab.guru to configure your cronjob easier)
