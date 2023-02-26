@@ -14,7 +14,7 @@ if [ "$la" -eq 1 ] && [ "$mem" -eq 1  ]; then
     slackurl=$(sed -n 's/^[[:space:]]*slackurl:[[:space:]]*//p' $HOME/JopasMonitorScript/config/config.yaml)
     channel=$(sed -n 's/^[[:space:]]*channel:[[:space:]]*//p' $HOME/JopasMonitorScript/config/config.yaml)
     botname=$(sed -n 's/^[[:space:]]*botname:[[:space:]]*//p' $HOME/JopasMonitorScript/config/config.yaml)
-    message="Load Avg and Memory usage are High! Info: la: $loadavg mem: $used_mem"
+    message="Load Avg and Memory usage are High! Info: la: $loadavg mem: $used_memMB"
     json_payload="payload={
         \"channel\": \"$channel\",
         \"username\": \"$botname\",
