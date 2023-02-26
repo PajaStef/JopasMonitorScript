@@ -22,5 +22,5 @@ if [ "$la" -eq 1 ] && [ "$mem" -eq 1  ]; then
     }"
 
     #sending message
-    curl --silent -X POST --data-urlencode "$json_payload" "$slackurl"
+    curl --silent -X POST --data-urlencode "$json_payload" "$slackurl" > /dev/null
 fi
