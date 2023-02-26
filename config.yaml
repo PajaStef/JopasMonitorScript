@@ -1,6 +1,0 @@
----
-maxla: <input_max_loadavg> 
-maxmem: <input_max_memory_in_mb>
-slackurl: <slack_webhook_url>
-channel: <channel_name>
-botname: <bot_name>
