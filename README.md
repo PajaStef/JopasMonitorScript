@@ -3,7 +3,7 @@ This script is written in bash, it checks load avg and memory usage and reports 
 
 INSTALATION:
 
-1. git clone https://github.com/PajaStef/JopasMonitorScript
+1. clone this repo: git clone https://github.com/PajaStef/JopasMonitorScript
 2. go into JopasMonitorScript, cd JopasMonitorScript
 4. make script executable with command: chmod +x monitor.sh
 5. go into config folder, cd config
