@@ -1,7 +1,7 @@
 #!/bin/bash
 
-maxla=$(sed -n 's/^[[:space:]]*maxla:[[:space:]]*//p' config.yaml)
-maxmem=$(sed -n 's/^[[:space:]]*maxmem:[[:space:]]*//p' config.yaml)
+maxla=$(sed -n 's/^[[:space:]]*maxla:[[:space:]]*//p' config/config.yaml)
+maxmem=$(sed -n 's/^[[:space:]]*maxmem:[[:space:]]*//p' config/config.yaml)
 
 loadavg=$(cat /proc/loadavg | awk '{print $1}')
 used_mem=$(free -m | awk '/^Mem:/ {print $3}')
